@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Laba_4.2</string>
+    <string name="go_to_next_activity">Go To Next Activity</string>
+    <string name="no_name">No Name</string>
+    <string name="enter_txt">Обери правильну відповідь</string>
+    <string name="txt1">Ворона</string>
+    <string name="txt2">Песик</string>
+    <string name="txt3">Васька</string>
 </resources>
