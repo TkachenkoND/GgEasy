@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             when (index) {
                 1 -> {
                     text.text = "Red"
-                    root.setBackgroundColor(R.color.red)
+                    root.setBackgroundResource(R.color.red)
                 }
                 2 -> {
                     text.text = "Yellow"
