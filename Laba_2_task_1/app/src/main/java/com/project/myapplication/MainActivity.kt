@@ -7,7 +7,9 @@ import com.project.myapplication.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
-    private var count = 0
+    private var countCat = 0
+    private var countGrach = 0
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,16 +21,27 @@ class MainActivity : AppCompatActivity() {
 
     private fun initClickListener() {
         binding.apply {
-            btnCount.setOnClickListener {
-                setContent()
+            btnCountCat.setOnClickListener {
+                setCountCat()
+            }
+
+            btnCountGrach.setOnClickListener {
+                setCountGrach()
             }
         }
     }
 
-    private fun setContent() {
+    private fun setCountCat() {
         binding.apply {
-            count++
-            textCount.text = count.toString()
+            countCat++
+            textCountCat.text = countCat.toString()
+        }
+    }
+
+    private fun setCountGrach() {
+        binding.apply {
+            countGrach++
+            textCountGrach.text = countGrach.toString()
         }
     }
 
